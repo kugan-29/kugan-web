@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - UI/UX Designer</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #FF5733, #FF8D1A);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      position: sticky;
+      top: 0;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    header p {
+      font-style: italic;
+    }
+    /* Animative Hover Effects */
+    .card:hover {
+      transform: rotate(-2deg) scale(1.1);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    /* Showcase Section */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
+    .card {
+      width: 300px;
+      background: #fff;
+      color: #333;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card img {
+      width: 100%;
+      border-bottom: 4px solid #FF5733;
+    }
+    .card h2 {
+      font-size: 1.5em;
+      margin: 10px 0;
+    }
+    .card p {
+      padding: 10px;
+      font-size: 1em;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      position: sticky;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Creative UI/UX Designer</p>
+  </header>
+  <main>
+    <section class="container">
+      <div class="card">
+        <img src="project1.jpg" alt="Project 1">
+        <h2>Project Title 1</h2>
+        <p>A brief description of your work goes here.</p>
+      </div>
+      <div class="card">
+        <img src="project2.jpg" alt="Project 2">
+        <h2>Project Title 2</h2>
+        <p>Details about the creative process and impact of the project.</p>
+      </div>
+      <div class="card">
+        <img src="project3.jpg" alt="Project 3">
+        <h2>Project Title 3</h2>
+        <p>Showcase your UI/UX skills here with a fun twist.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Your Name | Designed with ❤️ in Figma and ChatGPT</p>
+  </footer>
+</body>
+</html>
